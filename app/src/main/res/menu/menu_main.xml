@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.homework.iusam.homework3.MainActivity" >
+    <item android:id="@+id/action_web"
+        android:title="Web"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_reset"
+        android:title="@string/action_reset"
+        app:showAsAction="never" />
+</menu>
